@@ -18,7 +18,7 @@ public class JGroupsClusterManager implements Receiver {
     public JGroupsClusterManager(StrokeCRDT crdt) {
         this.crdt = crdt;
         try {
-            channel = new JChannel();
+            channel = new JChannel("jgroups-tcp.xml");
             channel.setReceiver(this);
             channel.connect(CLUSTER_NAME);
         } catch (Exception e) {
