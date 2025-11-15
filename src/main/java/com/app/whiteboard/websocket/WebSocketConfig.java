@@ -1,4 +1,4 @@
-package websocket;
+package com.app.whiteboard.websocket;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;

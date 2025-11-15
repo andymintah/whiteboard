@@ -1,4 +1,4 @@
-package crdt;
+package com.app.whiteboard.crdt;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

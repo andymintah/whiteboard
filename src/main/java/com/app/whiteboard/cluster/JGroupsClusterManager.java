@@ -1,7 +1,7 @@
 
-package cluster;
+package com.app.whiteboard.cluster;
 
-import crdt.StrokeCRDT;
+import com.app.whiteboard.crdt.StrokeCRDT;
 import org.jgroups.JChannel;
 import org.jgroups.Message;
 import org.jgroups.BytesMessage;

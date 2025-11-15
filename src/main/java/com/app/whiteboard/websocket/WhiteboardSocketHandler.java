@@ -1,9 +1,9 @@
-package websocket;
+package com.app.whiteboard.websocket;
 
-import cluster.JGroupsClusterManager;
+import com.app.whiteboard.cluster.JGroupsClusterManager;
+import com.app.whiteboard.crdt.Stroke;
+import com.app.whiteboard.crdt.StrokeCRDT;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import crdt.Stroke;
-import crdt.StrokeCRDT;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;

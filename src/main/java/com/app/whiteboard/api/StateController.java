@@ -1,12 +1,12 @@
-package api;
+package com.app.whiteboard.api;
 
-import crdt.StrokeCRDT;
+import com.app.whiteboard.crdt.StrokeCRDT;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/com/app/whiteboard")
 public class StateController {
     private final StrokeCRDT crdt;
 

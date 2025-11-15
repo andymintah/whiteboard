@@ -1,6 +1,6 @@
-package config;
+package com.app.whiteboard.config;
 
-import crdt.StrokeCRDT;
+import com.app.whiteboard.crdt.StrokeCRDT;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
